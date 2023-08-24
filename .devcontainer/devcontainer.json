@@ -5,7 +5,7 @@
   "updateRemoteUserUID": false,
   "features": {
     "ghcr.io/devcontainers/features/nix:1": {
-      "multiUser": false,
+      "multiUser": true,
       "version": "unstable"
     }
   }
