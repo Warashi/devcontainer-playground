@@ -2,12 +2,13 @@
   "build": {
     "dockerfile": "Dockerfile"
   },
+  "postCreateCommand": "go install golang.org/x/tools/gopls@latest",
   "features": {
     "ghcr.io/devcontainers/features/go:1": {},
     "ghcr.io/devcontainers/features/nix:1": {
       "multiUser": "true",
       "version": "latest",
-      "packages": "neovim,tig"
+      "packages": "neovim,tig,deno,fd,ripgrep,git,git-lfs,gnumake,jq,nodejs"
     }
   }
 }
