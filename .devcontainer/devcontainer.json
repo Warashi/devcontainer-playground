@@ -1,0 +1,10 @@
+{
+  "image": "ubuntu:jammy",
+  "remoteUser": "user",
+  "features": {
+    "ghcr.io/devcontainers/features/nix:1": {
+      "multiUser": falae,
+      "version": "unstable"
+    }
+  }
+}
