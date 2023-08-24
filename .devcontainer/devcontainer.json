@@ -3,13 +3,13 @@
     "dockerfile": "Dockerfile"
   },
   "features": {
+    "ghcr.io/devcontainers/features/go:1": {},
     "ghcr.io/devcontainers/features/nix:1": {
       "multiUser": "true",
       "version": "latest"
     },
     "packages": [
       "neovim",
-      "go",
       "tig"
     ]
   }
