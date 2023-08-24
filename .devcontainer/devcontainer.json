@@ -1,6 +1,8 @@
 {
-  "image": "ubuntu:jammy",
-  "remoteUser": "user",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "remoteUser": "devcontainer",
   "features": {
     "ghcr.io/devcontainers/features/nix:1": {
       "multiUser": false,
